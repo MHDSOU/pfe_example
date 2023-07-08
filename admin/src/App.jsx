@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <h1>ADMIN</h1>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/admin">
         <Routes>
           <Route path="/" element={<div> hello from admin</div>} />
           <Route path="/home" element={<div> hello from admin - home</div>} />
